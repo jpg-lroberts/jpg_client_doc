@@ -19,6 +19,13 @@
         "tag": "Reference"
       },
       {
+        "icon": "🎣",
+        "title": "Phishing — How to Identify & Report",
+        "description": "Recognize suspicious emails and report with the Phish Alert button",
+        "url": "https://jpthegeek.itglue.com/8724768/docs/22224818#version=published&documentMode=view",
+        "tag": "Security"
+      },
+      {
         "icon": "🛡️",
         "title": "Multi-Factor Authentication Setup",
         "description": "How to enroll in MFA using the Microsoft Authenticator app",
@@ -94,13 +101,6 @@
         "tag": "Reference",
         "disabled": true
       },
-      {
-        "icon": "🎣",
-        "title": "Phishing — How to Identify & Report",
-        "description": "Recognize suspicious emails and report with the Phish Alert button",
-        "url": "https://jpthegeek.itglue.com/8724768/docs/22224818#version=published&documentMode=view",
-        "tag": "Security"
-      }
     ]
   },
   {
@@ -133,9 +133,8 @@
         "icon": "⚠️",
         "title": "What to Do If You've Been Hacked",
         "description": "Immediate steps to take when you suspect a security incident",
-        "url": "https://app.itglue.com/YOUR_ORG/documents/DOCUMENT_ID",
-        "tag": "Urgent",
-        "disabled": true
+        "url": "https://jpthegeek.itglue.com/8724768/docs/23686920#version=published&documentMode=view",
+        "tag": "Urgent"
       },
       {
         "icon": "🔄",
