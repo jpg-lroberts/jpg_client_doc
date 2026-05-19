@@ -335,6 +335,7 @@
     }
 
     .card.hidden { display: none; }
+    .card.company-hidden { display: none; }
     .section.all-hidden { display: none; }
   </style>
 </head>
@@ -430,7 +431,7 @@
         <span class="card-tag">How-To</span>
         <span class="card-arrow">→</span>
       </a>
-      <a class="card" href="https://jpthegeek.itglue.com/8724768/docs/16139240#version=published&documentMode=view" target="_blank" rel="noopener">
+      <a class="card" href="https://jpthegeek.itglue.com/8724768/docs/16139240#version=published&documentMode=view" target="_blank" rel="noopener" data-restrict-to="JPtheGeek">
         <span class="card-icon">🖥️</span>
         <div class="card-body">
           <div class="card-title">ScreenConnect — Remote Access Guide</div>
@@ -553,13 +554,25 @@
   const search = document.getElementById('search');
   const empty  = document.getElementById('empty');
 
-  search.addEventListener('input', () => {
-    const q = search.value.toLowerCase().trim();
+  // ── Company filtering ──
+  const params  = new URLSearchParams(window.location.search);
+  const company = (params.get('company_name') || '').trim().toLowerCase();
+
+  document.querySelectorAll('[data-restrict-to]').forEach(card => {
+    const allowed = card.dataset.restrictTo.split(',').map(s => s.trim().toLowerCase());
+    if (!allowed.includes(company)) {
+      card.classList.add('company-hidden');
+    }
+  });
+
+  // ── Search + count ──
+  function updateView(q) {
     let anyVisible = false;
 
     document.querySelectorAll('[data-section]').forEach(section => {
       let sectionVisible = false;
       section.querySelectorAll('.card').forEach(card => {
+        if (card.classList.contains('company-hidden')) return;
         const match = !q || card.textContent.toLowerCase().includes(q);
         card.classList.toggle('hidden', !match);
         if (match) sectionVisible = true;
@@ -569,8 +582,8 @@
 
       const ct = section.querySelector('.section-count');
       if (ct) {
-        const total   = section.querySelectorAll('.card').length;
-        const visible = section.querySelectorAll('.card:not(.hidden)').length;
+        const total   = section.querySelectorAll('.card:not(.company-hidden)').length;
+        const visible = section.querySelectorAll('.card:not(.company-hidden):not(.hidden)').length;
         ct.textContent = q
           ? `${visible} result${visible !== 1 ? 's' : ''}`
           : `${total} doc${total !== 1 ? 's' : ''}`;
@@ -578,7 +591,10 @@
     });
 
     empty.style.display = anyVisible ? 'none' : 'block';
-  });
+  }
+
+  updateView('');
+  search.addEventListener('input', () => updateView(search.value.toLowerCase().trim()));
 </script>
 </body>
 </html>
