@@ -1,0 +1,132 @@
+[
+  {
+    "icon": "🔐",
+    "label": "Security & Access",
+    "cards": [
+      {
+        "icon": "🔑",
+        "title": "Password Policy",
+        "description": "Requirements, expiration schedule, and reset procedures",
+        "url": "https://jpthegeek.itglue.com/8724768/docs/23680876#version=published&documentMode=view",
+        "tag": "Policy"
+      },
+      {
+        "icon": "🛡️",
+        "title": "Multi-Factor Authentication Setup",
+        "description": "How to enroll in MFA using the Microsoft Authenticator app",
+        "url": "https://app.itglue.com/YOUR_ORG/documents/DOCUMENT_ID",
+        "tag": "How-To"
+      },
+      {
+        "icon": "🚫",
+        "title": "Acceptable Use Policy",
+        "description": "Approved use of company devices, networks, and software",
+        "url": "https://app.itglue.com/YOUR_ORG/documents/DOCUMENT_ID",
+        "tag": "Policy"
+      }
+    ]
+  },
+  {
+    "icon": "💻",
+    "label": "Remote Work & VPN",
+    "cards": [
+      {
+        "icon": "🌐",
+        "title": "VPN Connection Guide",
+        "description": "How to connect to the company VPN from Windows or Mac",
+        "url": "https://app.itglue.com/YOUR_ORG/documents/DOCUMENT_ID",
+        "tag": "How-To"
+      },
+      {
+        "icon": "🖥️",
+        "title": "Remote Desktop Setup",
+        "description": "Connecting to your office workstation from home",
+        "url": "https://app.itglue.com/YOUR_ORG/documents/DOCUMENT_ID",
+        "tag": "How-To"
+      },
+      {
+        "icon": "🔒",
+        "title": "Always-On VPN — Getting Connected",
+        "description": "How to enable and use your automatic secure connection from anywhere",
+        "url": "https://jpthegeek.itglue.com/8724768/docs/21000869#version=published&documentMode=view",
+        "tag": "How-To",
+        "restrictTo": "0,834,853,856,870,874,878,901,902,909,911,2481,3083,5140,5154,5155,5163,5175"
+      },
+      {
+        "icon": "🖥️",
+        "title": "ScreenConnect — Remote Access Guide",
+        "description": "How to log in and remotely access your devices via ScreenConnect",
+        "url": "https://jpthegeek.itglue.com/8724768/docs/16139240#version=published&documentMode=view",
+        "tag": "How-To",
+        "restrictTo": "0"
+      }
+    ]
+  },
+  {
+    "icon": "📧",
+    "label": "Email & Microsoft 365",
+    "cards": [
+      {
+        "icon": "📬",
+        "title": "Setting Up Email on Mobile",
+        "description": "Configure Outlook on iOS and Android devices",
+        "url": "https://app.itglue.com/YOUR_ORG/documents/DOCUMENT_ID",
+        "tag": "How-To"
+      },
+      {
+        "icon": "🗄️",
+        "title": "Mailbox & Storage Limits",
+        "description": "Quota limits, archiving, and how to clean up your mailbox",
+        "url": "https://app.itglue.com/YOUR_ORG/documents/DOCUMENT_ID",
+        "tag": "Reference"
+      },
+      {
+        "icon": "🎣",
+        "title": "Phishing — How to Identify & Report",
+        "description": "Recognize suspicious emails and report with the Phish Alert button",
+        "url": "https://app.itglue.com/YOUR_ORG/documents/DOCUMENT_ID",
+        "tag": "Security"
+      }
+    ]
+  },
+  {
+    "icon": "🖨️",
+    "label": "Printing & Devices",
+    "cards": [
+      {
+        "icon": "🖨️",
+        "title": "Adding a Network Printer",
+        "description": "How to install and connect to office printers on Windows",
+        "url": "https://app.itglue.com/YOUR_ORG/documents/DOCUMENT_ID",
+        "tag": "How-To"
+      },
+      {
+        "icon": "📱",
+        "title": "New Device Setup Checklist",
+        "description": "Steps to complete when receiving a new company computer or phone",
+        "url": "https://app.itglue.com/YOUR_ORG/documents/DOCUMENT_ID",
+        "tag": "Reference"
+      }
+    ]
+  },
+  {
+    "icon": "🚨",
+    "label": "Incidents & Emergencies",
+    "cards": [
+      {
+        "icon": "⚠️",
+        "title": "What to Do If You've Been Hacked",
+        "description": "Immediate steps to take when you suspect a security incident",
+        "url": "https://app.itglue.com/YOUR_ORG/documents/DOCUMENT_ID",
+        "tag": "Urgent"
+      },
+      {
+        "icon": "🔄",
+        "title": "Data Backup & Recovery Overview",
+        "description": "How your data is backed up and how to request a restore",
+        "url": "https://app.itglue.com/YOUR_ORG/documents/DOCUMENT_ID",
+        "tag": "Reference"
+      }
+    ]
+  }
+]
