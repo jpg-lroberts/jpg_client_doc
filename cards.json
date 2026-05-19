@@ -11,6 +11,13 @@
         "tag": "Policy"
       },
       {
+        "icon": "🔐",
+        "title": "Password Best Practices",
+        "description": "Why every password should be unique, how MFA helps, and your free password manager",
+        "url": "https://jpthegeek.itglue.com/8724768/docs/23686755#version=published&documentMode=view",
+        "tag": "Reference"
+      },
+      {
         "icon": "🛡️",
         "title": "Multi-Factor Authentication Setup",
         "description": "How to enroll in MFA using the Microsoft Authenticator app",
