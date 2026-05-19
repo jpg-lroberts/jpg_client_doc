@@ -1,0 +1,85 @@
+[
+  {
+    "icon": "🎫",
+    "label": "Support & Billing",
+    "cards": [
+      {
+        "icon": "🎫",
+        "title": "Submit a Support Ticket",
+        "description": "Open a new ticket or check the status of an existing request",
+        "url": "https://support.jpthegeek.com",
+        "tag": "Support"
+      },
+      {
+        "icon": "💳",
+        "title": "Invoice & Billing Portal",
+        "description": "View and pay invoices for your account",
+        "url": "https://[BILLING_PORTAL_URL]",
+        "tag": "Billing",
+        "disabled": true
+      }
+    ]
+  },
+  {
+    "icon": "🖥️",
+    "label": "Remote Access",
+    "cards": [
+      {
+        "icon": "🖥️",
+        "title": "ScreenConnect — Remote Access",
+        "description": "Log in to remotely access your work devices from anywhere",
+        "url": "https://jpthegeek.screenconnect.com/login",
+        "tag": "App",
+        "restrictTo": "0"
+      }
+    ]
+  },
+  {
+    "icon": "☁️",
+    "label": "Microsoft 365",
+    "cards": [
+      {
+        "icon": "🏠",
+        "title": "Microsoft 365 Portal",
+        "description": "Access all your Microsoft 365 apps and services",
+        "url": "https://portal.office.com",
+        "tag": "Portal"
+      },
+      {
+        "icon": "📧",
+        "title": "Outlook Web",
+        "description": "Access your email from any browser",
+        "url": "https://outlook.office.com",
+        "tag": "App"
+      },
+      {
+        "icon": "💬",
+        "title": "Microsoft Teams",
+        "description": "Chat, meetings, and collaboration with your team",
+        "url": "https://teams.microsoft.com",
+        "tag": "App"
+      },
+      {
+        "icon": "☁️",
+        "title": "OneDrive",
+        "description": "Access and share your files stored in the cloud",
+        "url": "https://onedrive.live.com",
+        "tag": "App"
+      }
+    ]
+  },
+  {
+    "icon": "🔐",
+    "label": "Security & Passwords",
+    "cards": [
+      {
+        "icon": "🔑",
+        "title": "MyGlue Password Manager",
+        "description": "Securely store and access your passwords — included free with your plan",
+        "url": "https://[MYGLUE_URL]",
+        "tag": "App",
+        "disabled": true
+      }
+    ]
+  }
+]
