@@ -432,7 +432,7 @@
         <span class="card-tag">How-To</span>
         <span class="card-arrow">→</span>
       </a>
-      <a class="card" href="https://jpthegeek.itglue.com/8724768/docs/16139240#version=published&documentMode=view" target="_blank" rel="noopener" data-restrict-to="JPtheGeek">
+      <a class="card" href="https://jpthegeek.itglue.com/8724768/docs/16139240#version=published&documentMode=view" target="_blank" rel="noopener" data-restrict-to="0">
         <span class="card-icon">🖥️</span>
         <div class="card-body">
           <div class="card-title">ScreenConnect — Remote Access Guide</div>
@@ -557,7 +557,7 @@
 
   // ── Company filtering ──
   const params  = new URLSearchParams(window.location.search);
-  const company = (params.get('company_name') || '').trim().toLowerCase();
+  const company = (params.get('company_identifier') || '').trim().toLowerCase();
 
   document.querySelectorAll('[data-restrict-to]').forEach(card => {
     const allowed = card.dataset.restrictTo.split(',').map(s => s.trim().toLowerCase());
