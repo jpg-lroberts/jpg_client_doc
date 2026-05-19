@@ -8,7 +8,8 @@
         "title": "Password Policy",
         "description": "Requirements, expiration schedule, and reset procedures",
         "url": "https://jpthegeek.itglue.com/8724768/docs/23680876#version=published&documentMode=view",
-        "tag": "Policy"
+        "tag": "Policy",
+        "disabled": true
       },
       {
         "icon": "🔐",
