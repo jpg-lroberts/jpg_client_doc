@@ -557,7 +557,7 @@
 
   // ── Company filtering ──
   const params  = new URLSearchParams(window.location.search);
-  const company = (params.get('company_identifier') || '').trim().toLowerCase();
+  const company = (params.get('company_entity_id') || '').trim().toLowerCase();
 
   document.querySelectorAll('[data-restrict-to]').forEach(card => {
     const allowed = card.dataset.restrictTo.split(',').map(s => s.trim().toLowerCase());
