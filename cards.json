@@ -15,14 +15,16 @@
         "title": "Multi-Factor Authentication Setup",
         "description": "How to enroll in MFA using the Microsoft Authenticator app",
         "url": "https://app.itglue.com/YOUR_ORG/documents/DOCUMENT_ID",
-        "tag": "How-To"
+        "tag": "How-To",
+        "disabled": true
       },
       {
         "icon": "🚫",
         "title": "Acceptable Use Policy",
         "description": "Approved use of company devices, networks, and software",
         "url": "https://app.itglue.com/YOUR_ORG/documents/DOCUMENT_ID",
-        "tag": "Policy"
+        "tag": "Policy",
+        "disabled": true
       }
     ]
   },
@@ -35,14 +37,16 @@
         "title": "VPN Connection Guide",
         "description": "How to connect to the company VPN from Windows or Mac",
         "url": "https://app.itglue.com/YOUR_ORG/documents/DOCUMENT_ID",
-        "tag": "How-To"
+        "tag": "How-To",
+        "disabled": true
       },
       {
         "icon": "🖥️",
         "title": "Remote Desktop Setup",
         "description": "Connecting to your office workstation from home",
         "url": "https://app.itglue.com/YOUR_ORG/documents/DOCUMENT_ID",
-        "tag": "How-To"
+        "tag": "How-To",
+        "disabled": true
       },
       {
         "icon": "🔒",
@@ -71,21 +75,24 @@
         "title": "Setting Up Email on Mobile",
         "description": "Configure Outlook on iOS and Android devices",
         "url": "https://app.itglue.com/YOUR_ORG/documents/DOCUMENT_ID",
-        "tag": "How-To"
+        "tag": "How-To",
+        "disabled": true
       },
       {
         "icon": "🗄️",
         "title": "Mailbox & Storage Limits",
         "description": "Quota limits, archiving, and how to clean up your mailbox",
         "url": "https://app.itglue.com/YOUR_ORG/documents/DOCUMENT_ID",
-        "tag": "Reference"
+        "tag": "Reference",
+        "disabled": true
       },
       {
         "icon": "🎣",
         "title": "Phishing — How to Identify & Report",
         "description": "Recognize suspicious emails and report with the Phish Alert button",
         "url": "https://app.itglue.com/YOUR_ORG/documents/DOCUMENT_ID",
-        "tag": "Security"
+        "tag": "Security",
+        "disabled": true
       }
     ]
   },
@@ -98,14 +105,16 @@
         "title": "Adding a Network Printer",
         "description": "How to install and connect to office printers on Windows",
         "url": "https://app.itglue.com/YOUR_ORG/documents/DOCUMENT_ID",
-        "tag": "How-To"
+        "tag": "How-To",
+        "disabled": true
       },
       {
         "icon": "📱",
         "title": "New Device Setup Checklist",
         "description": "Steps to complete when receiving a new company computer or phone",
         "url": "https://app.itglue.com/YOUR_ORG/documents/DOCUMENT_ID",
-        "tag": "Reference"
+        "tag": "Reference",
+        "disabled": true
       }
     ]
   },
@@ -118,14 +127,16 @@
         "title": "What to Do If You've Been Hacked",
         "description": "Immediate steps to take when you suspect a security incident",
         "url": "https://app.itglue.com/YOUR_ORG/documents/DOCUMENT_ID",
-        "tag": "Urgent"
+        "tag": "Urgent",
+        "disabled": true
       },
       {
         "icon": "🔄",
         "title": "Data Backup & Recovery Overview",
         "description": "How your data is backed up and how to request a restore",
         "url": "https://app.itglue.com/YOUR_ORG/documents/DOCUMENT_ID",
-        "tag": "Reference"
+        "tag": "Reference",
+        "disabled": true
       }
     ]
   }
