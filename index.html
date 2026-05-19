@@ -419,7 +419,7 @@
         el.className = 'section';
         el.setAttribute('data-section', '');
 
-        const cardsHTML = section.cards.map(card => {
+        const cardsHTML = section.cards.filter(card => !card.disabled).map(card => {
           const restrict = card.restrictTo
             ? ` data-restrict-to="${card.restrictTo}"`
             : '';
